@@ -1,6 +1,6 @@
 <template>
     <footer class="rodape paragrafo">
-      Desenvolvido por Alura | 2023 - Projeto fictício sem fins comerciais.
+      Desenvolvido por Alura | 2025 - Projeto fictício sem fins comerciais | Aluno: - <a href="https://github.com/emiliosarges" class="link-rodape"> Emílio Sarges</a>.
     </footer>
   </template>
   
@@ -23,5 +23,16 @@
     .rodape {
       padding: 1.5rem;
     }
+  }
+
+  .link-rodape {
+    text-decoration: none;
+    padding: 2px;
+    color: white;
+    border-radius: 5px;
+  }
+
+  .link-rodape:hover {
+    color: red;
   }
   </style>
