@@ -1,19 +1,15 @@
 <script lang="ts">
 import Banner from './components/Banner.vue';
 import ConteudoPrincipal from './components/ConteudoPrincipal.vue';
+import Rodape from './components/Rodape.vue';
 
-//Quando propriedade e valor são igual, podemos deixar somente o nome da propriedade em vez de: { Banner: Banner }
 export default {
-  components: { Banner, ConteudoPrincipal } 
+  components: { Banner, ConteudoPrincipal, Rodape }
 }
-
 </script>
 
 <template>
   <Banner />
   <ConteudoPrincipal />
+  <Rodape />
 </template>
-
-<style scoped>
-
-</style>
